@@ -1,0 +1,6 @@
+export const SET_COUNTER = 'SET_COUNTER'
+export const SET_CLEAR = 'SET_CLEAR'
+export const SET_INCREMENT = 'SET_INCREMENT'
+export const SET_DECREMENT = 'SET_DECREMENT'
+
+//export cosnt PRESED_HELLO_BUTTON = 'PRESED_HELLO_BUTTON'
