@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     console.log("cocho",this.props)
     const { container, countViewStyle, welcome } = styles;
-    const {helloText} = this.props.hello
+    const {helloText, pressedButton} = this.props.hello
     return (
       <View style={container}>
       <Image source={require('./assets/img/0_U2DmhXYumRyXH6X1.png')} style={{width: 100, height: 100}} />
@@ -39,10 +39,10 @@ class App extends Component {
         <Text>
           {helloText}
         </Text>
-        {/* <Text>
+        <Text>
             Did You Press Button ? {pressedButton.toString()}
-        </Text> */}
-        {/* <Button onPress={this.props.helloActions} title="Show Me Magic"/> */}
+        </Text>
+        <Button onPress={this.props.helloActions} title="Show Me Magic"/>
       </View>
     );
   }
